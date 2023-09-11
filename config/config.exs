@@ -9,7 +9,7 @@ import Config
 
 # Configures the endpoint
 config :newproj, NewprojWeb.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "0.0.0.0"],
   render_errors: [
     formats: [html: NewprojWeb.ErrorHTML, json: NewprojWeb.ErrorJSON],
     layout: false
